@@ -12,3 +12,54 @@ header {
     padding: 20px 0;
     font-size: 24px;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.noticia {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.noticia img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.noticia h2 {
+    color: #333;
+    text-align: center;
+}
+
+.fecha {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.resumen {
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+}
+
+.fuente {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fuente:hover {
+    text-decoration: underline;
+}
